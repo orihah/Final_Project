@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Escape Room: CSIS 228</title>
+	<link href="game.css" rel="stylesheet">
+</head>
+
+<body>
+  
+  <div class="playField">
+  
+  <img src="images/1852.jpg" class="mainImage" alt="Image Designed by vectorpouch / Freepik http://www.freepik.com" >
+  <img src="images/OCardWall.jpg" class="cardWall" id="cardWall">
+  <img src="images/cardRemoved.jpg" class="cardRemoved" id="cardRemoved">
+  <img src="images/firstKey.jpg" class="firstKey" id="firstKey">
+  <img src="images/lockbox.jpg" class="lockbox" id="lockbox">
+  <img src="images/fireplace.jpg" class="fireplace" id="fireplace">
+  <img src="images/featherDuster.jpg" class="featherDuster" id="featherDuster">
+  <img src="images/cobweb.jpg" class="cobweb" id="cobweb">
+  <img src="images/coffin.jpg" class="coffin" id="coffin">
+
+  <input type="text" id="codeBox" onkeypress="codeEnter(event)">
+  </div>
+  
+  <div class="textBoxes">
+  <textarea readonly class="inventory" id="inventory" rows="5" cols="20" >This is your inventory. &#13;&#10;It is currently empty.</textarea>
+  <textarea readonly class="description" id="description" rows="5" cols="50" >This is your inventory!</textarea>
+  </div>
+ 
+  
+  <footer><p><a href="http://www.freepik.com">Designed by vectorpouch / Freepik</a></p></footer>
+  <script src="game.js"></script>
+</body>
+
+</html>
