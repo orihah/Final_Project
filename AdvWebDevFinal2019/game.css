@@ -1,0 +1,180 @@
+/*Orihah Sage Lillian Smith Joshua Brown
+Date 12/10/2019
+Filename: game.html
+This javascript program runs an escape room game in a web page enviornment.
+This file defines the styles for individual elements
+*/
+
+body 
+{	
+	width: 100%;
+	background-color: grey;
+}
+
+.playField
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.mainImage
+{
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.cardWall
+{
+	position: absolute;
+	top: 38.421%;
+	left: 78.584%;
+	z-index: 1;
+	width: 3%;
+	height: auto;
+	opacity: 0.0;
+}
+
+.cardRemoved
+{
+	position: absolute;
+	top: 79.646%;
+	left: 83.138%;
+	z-index: 1;
+	width: 7%;
+	height: auto;
+	opacity: 0.0;
+}
+
+.firstKey
+{
+	position: absolute;
+	top: 59.501%;
+	left: 84.8%;
+	z-index: 1;
+	width: 4.2%;
+	height: auto;
+	opacity: 0.0;
+}
+
+.lockbox
+{
+	position: absolute;
+	top: 69.643%;
+	left: 17.984%;
+	z-index: 2;
+	width: 5.9%;
+	height: auto;
+	opacity: 0.0;
+}
+
+.fireplace
+{
+	position: absolute;
+	top: 66.562%;
+	left: 32.553%;
+	z-index: 1;
+	width: 7.25%;
+	height: auto;
+	opacity: 0.0;
+}
+
+.featherDuster
+{
+	position: absolute;
+	top: 65.697%;
+	left: 15.03%;
+	z-index: 1;
+	width: 7.25%;
+	height: auto;
+	opacity: 0.0;
+}
+
+.cobweb
+{
+	position: absolute;
+	top: 20.006%;
+	left: 10.215%;
+	z-index: 1;
+	width: 11.2%;
+	height: auto;
+	opacity: 0.0;
+}
+
+.coffin
+{
+	position: absolute;
+	top: 35.34%;
+	left: 4.2%;
+	z-index: 1;
+	width: 12%;
+	height: auto;
+	opacity: 0.0;
+}
+
+input
+{
+	position: absolute;
+	top: 35.34%;
+	left: 4.2%;
+	z-index: 1;
+	width: 12%;
+	height: auto;
+	opacity: 0.0;
+}
+
+.container 
+{
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Butcherman', cursive;
+}
+
+.centered 
+{
+  position: absolute;
+  top:  30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.description
+{
+	font-size: 25px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.inventory
+{
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.col-md-4 
+{
+  border: 1px solid #c9c9c9;
+}
+
+.col-md-8
+{
+  border: 1px solid #c9c9c9;
+}

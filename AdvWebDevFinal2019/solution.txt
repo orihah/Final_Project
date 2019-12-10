@@ -1,0 +1,15 @@
+/*Orihah Sage Lillian Smith Joshua Brown
+Date 12/10/2019
+Filename: solution.txt
+This file contains the solution for the escape room game
+*/
+
+1. Pick up tile "o" from floor
+2. Place tile "o" on wall to spell "boo"
+3. Pick up key from table
+4. Click fireplace to get passcode to exit door
+5. Click on recliner to find lockbox, use key from table to unlock
+6. Pick up feather duster from recliner
+7. Dust cobwebs from light above recliner and get key to exit door
+8. Click on coffin to find exit door
+9. Use second key and passcode to escape

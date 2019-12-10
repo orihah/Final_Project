@@ -1,0 +1,42 @@
+<!--Orihah Sage Lillian Smith Joshua Brown
+Date 12/10/2019
+Filename: game.html
+This javascript program runs an escape room game in a web page enviornment.
+This file contains the html tags to create the webpage
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Escape Room: CSIS 228</title>
+	<link href="game.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="playField">
+	<img src="images/1852.jpg" class="mainImage" alt="Image Designed by vectorpouch / Freepik http://www.freepik.com" >
+	<img src="images/OCardWall.jpg" class="cardWall" id="cardWall">
+	<img src="images/cardRemoved.jpg" class="cardRemoved" id="cardRemoved">
+	<img src="images/firstKey.jpg" class="firstKey" id="firstKey">
+	<img src="images/lockbox.jpg" class="lockbox" id="lockbox">
+	<img src="images/fireplace.jpg" class="fireplace" id="fireplace">
+	<img src="images/featherDuster.jpg" class="featherDuster" id="featherDuster">
+	<img src="images/cobweb.jpg" class="cobweb" id="cobweb">
+	<img src="images/coffin.jpg" class="coffin" id="coffin">
+	<input type="text" id="codeBox" onkeypress="codeEnter(event)">
+  </div>
+  
+	<div class="row-eq-height">
+		<div class="col-md-4"><p readonly class="inventory" id="inventory">This is your inventory. &#13;&#10;It is currently empty.</p></div>
+		<div class="col-md-8"><p readonly class="description" id="description">You've woken in strange room. It appears to be Halloween, however, you know it's only May. You have no clue what's going on. You hear the sound of a roaring chainsaw from the other side of wall. You must find a way to escape.</p></div>
+	</div>
+
+  <footer><p><a href="http://www.freepik.com">Designed by vectorpouch / Freepik</a></p></footer>
+  <script src="game.js"></script>
+</body>
+</html>
